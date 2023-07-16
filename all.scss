@@ -1,0 +1,241 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bruno Ace SC', cursive;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.bg-dark {
+    background-color: #000;
+}
+
+.text-primary {
+    color: #15161D;
+}
+
+.text-secondary {
+    color: #D1D1D1;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.mb-1 {
+    margin-bottom: 36px;
+}
+
+.mb-2 {
+    margin-bottom: 24px;
+}
+
+.mb-3 {
+    margin-bottom: 4px;
+}
+
+.mr-1 {
+    margin-right: 24px;
+}
+
+.mr-2 {
+    margin-right: 16px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.fs-1 {
+    font-size: 64px;
+}
+
+.fs-2 {
+    font-size: 36px;
+}
+
+.fs-3 {
+    font-size: 24px;
+}
+
+.fs-4 {
+    font-size: 20px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+// Header
+.navbar {
+    padding-top: 40px;
+}
+
+.nav-item:not(:last-child) {
+    width: 306px;
+    margin-right: 61px;
+}
+
+.nav-item:last-child {
+    width: 196px;
+    text-align: end;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+// Banner
+.banner {
+    padding: 72px 0;
+}
+
+.banner-info {
+    width: 636px;
+    padding: 160px 0;
+
+    h1 {
+        font-size: 128px;
+        color: #00FFA3;
+    }
+}
+
+.banner-name {
+    text-align: end;
+}
+
+.banner-contact {
+    text-align: end;
+}
+
+.contact-link {
+    padding: 12px 24px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 25px;
+
+    &:hover {
+        box-shadow: 0 0 20px #00FFA3;
+    }
+}
+
+.link-arr {
+    display: inline;
+    vertical-align: middle;
+}
+
+// Intro
+.intro {
+    background-image: url(./image/background-img.png);
+}
+
+.intro-content {
+    padding: 160px 0;
+}
+
+.intro-info {
+    width: 526px;
+
+    p {
+        margin-bottom: 32px;
+    }
+}
+
+// About Me
+.about {
+    padding: 160px 0;
+}
+
+.about-info {
+    width: 636px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 306px;
+    padding: 16px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.about-me {
+    width: 526px;
+}
+
+// Contact Me
+.contact {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.contact-info {
+    padding: 96px 0;
+}
+
+.contact-icon {
+    width: 162px;
+    height: 162px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.discord,
+.instagram {
+    margin-right: 20px;
+}
+
+// My Projects
+.project-content {
+    padding: 160px 0;
+
+    h2 {
+        width: 746px;
+        margin-left: auto;
+        margin-bottom: 16px;
+    }
+}
+
+.project-info {
+    margin-bottom: 28px;
+}
+
+.project-link {
+    padding: 12px 24px;
+    border-radius: 25px;
+    margin-top: 76px;
+
+    &:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    }
+
+    img {
+        display: inline;
+        vertical-align: middle;
+    }
+}
+
+// Footer
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
