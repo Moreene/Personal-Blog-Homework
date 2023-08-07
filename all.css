@@ -111,7 +111,6 @@ img {
 
 .banner-info {
   width: 636px;
-  padding: 160px 0;
 }
 .banner-info h1 {
   font-size: 128px;
@@ -189,6 +188,10 @@ img {
   height: 162px;
   display: inline-block;
   vertical-align: middle;
+  border-radius: 40px;
+}
+.contact-icon:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .discord,
@@ -206,7 +209,7 @@ img {
 }
 
 .project-info {
-  margin-bottom: 28px;
+  flex-direction: column;
 }
 
 .project-link {
